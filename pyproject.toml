@@ -1,0 +1,8 @@
+[project]
+name = "aiml-engine"
+version = "0.1.0"
+description = "A Python and C++ machine learning engineering system"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["python"]
