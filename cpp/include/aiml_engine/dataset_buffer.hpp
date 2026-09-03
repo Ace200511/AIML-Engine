@@ -10,9 +10,7 @@ class DatasetBuffer
     std::size_t rowCount;
     std::size_t columnCount;
     std::size_t depthCount;
-    std::size_t index(std::size_t row,
-                  std::size_t column,
-                  std::size_t depth) const;
+    std::size_t index(std::size_t row, std::size_t column, std::size_t depth) const;
 
     public:
     DatasetBuffer(std::size_t rows, std::size_t columns, std::size_t depth);
